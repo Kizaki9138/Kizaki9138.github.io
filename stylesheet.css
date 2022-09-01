@@ -1,0 +1,207 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.header{
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  background-color:rgba(255,214,153,0.5);
+  color:black;
+  height:80px;
+  width: 100%;
+  position:fixed;
+  margin-top:10px;
+  z-index:10;
+  
+}
+
+.headline{
+  height:900px;
+}
+
+.header-logo {
+  font-size:64px;
+  padding-left:130px;
+  float:left;
+  line-height:90px
+
+}
+
+.header-list li {
+  font-size:20px;
+  float:right;
+  padding:25px 18px;
+  font-weight:bold;
+}
+
+.last{
+  margin-right:118px;
+}
+
+.headimage img{
+    
+    width:553px;
+    height:553px;
+    border-radius:50%;
+    background-position:center right;
+    float:right;
+    margin-right:130px;
+    margin-top:150px;  
+    display:inline;
+}
+
+.headline p{
+    font-size:32px;
+    padding-left:130px;
+    padding-top:350px;
+    float:top
+}
+
+.headline h1{
+  font-size:40px;
+  padding-left:130px;
+  float:top;
+}
+
+.Profile{
+  height:1400px;
+}
+.Profile h1{
+  font-size:50px;
+  margin-left:130px;
+  display:inline;
+}
+
+.profile-A {
+  margin-top:20px;
+}
+
+.profile-A h2{
+  padding:10px 130px;
+  font-weight:normal;
+}
+
+.explain-head p{
+  font-size:20px;
+  float:left;
+  margin-left:300px;
+  font-weight:bold;
+}
+
+.quest{
+  margin-bottom:0px;
+}
+
+.explain{
+  display:inline-block;
+}
+
+.Liking{
+  font-size:20px;
+  width:400px;
+  padding-left:230px;
+}
+
+.Web{
+  font-size:20px;
+  width:400px;
+  margin-left:750px;
+}
+
+.future{
+  height:0;
+}
+
+.future h1{ 
+  font-size:30px;
+  padding-left:130px;
+  font-weight:lighter;
+}
+
+.future h2{
+  font-size:64px;
+  text-align:center;
+  padding:50px 0 30px 0;
+}
+
+.future h3{
+  font-size:20px;
+  padding:0px 130px;
+  line-height:30px;
+  font-weight:lighter;
+}
+
+.Principle{
+  height:1100px;
+}
+
+.Principle h1{
+  font-size:50px;
+  margin-left:130px;
+  display:inline;
+}
+
+.principle-title{
+  font-size:64px;
+  text-align: center;
+}
+
+.principle-title span{
+  font-size:10px;
+}
+
+.explain2{
+  padding:30px 130px;
+  line-height:30px;
+}
+
+.principle-image{
+width:750px;
+height:500px;
+margin:50px 300px;
+}
+
+.Message{
+  height:700px;
+  background-color:rgba(255,214,153);
+}
+
+.Message h1{
+  font-size:50px;
+  margin:130px 0 0 130px;
+  display:inline-block;
+}
+
+.Message h3{
+  padding:30px 130px 0 130px;
+  font-weight: lighter;
+  line-height:30px;
+}
+
+.Message p{
+  margin:40px 0px 0px 130px;
+  
+}
+
+input{
+  margin-left:130px;
+  width:200px;
+  height:30px;
+}
+
+textarea{
+  margin-left:130px;
+  width:700px;
+  height:50px;
+}
